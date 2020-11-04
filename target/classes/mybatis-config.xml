@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="member" type="com.icia.DJ.dto.MemberDTO"/>
+
+<typeAlias alias="faq" type="com.icia.DJ.dto.FaqDTO"/>
+
+<typeAlias alias="event" type="com.icia.DJ.dto.EventDTO"/>
+
+<typeAlias alias="goodsShop" type="com.icia.DJ.dto.GoodsShopDTO"/>
+
+<typeAlias alias="basket" type="com.icia.DJ.dto.BasketDTO"/>
+
+<typeAlias alias="entertainment" type="com.icia.DJ.dto.EntertainmentDTO"/>
+
+<typeAlias alias="attraction" type="com.icia.DJ.dto.AttractionDTO"/>
+
+<typeAlias alias="notice" type="com.icia.DJ.dto.NoticeDTO"/>
+
+<typeAlias alias="paging" type="com.icia.DJ.dto.PageDTO"/>
+
+<typeAlias alias="comment" type="com.icia.DJ.dto.CommentDTO"/>
+
+<typeAlias alias="reservation" type="com.icia.DJ.dto.ReservationDTO"/>
+
+<typeAlias alias="resortRoom" type="com.icia.DJ.dto.ResortRoomDTO"/>
+		
+	</typeAliases>
+</configuration>
